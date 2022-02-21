@@ -1,0 +1,95 @@
+INFO:root:hander login 0
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:hander login 0
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:hander login 0
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:hander login 0
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:hander login 0
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  2
+INFO:root:hander login 0
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  0
+INFO:root:hander login 0
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  0
+INFO:root:hander login 0
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  0
+INFO:root:hander login 0
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  0
+INFO:root:hander login 0
+INFO:root:OnReceiveTrData 0101 opt10080 opt10080  0
