@@ -16,10 +16,10 @@ def split_contents(df):
     return df[0]
 # HOST = "15.164.224.163"
 # HOST = "172.31.37.165"
-HOST = "124.197.131.17"
+HOST = "124.197.144.166"
 # HOST = "192.168.29.212"
 PASSWORD = "1234"
-PORT = "12988"
+PORT = "7601"
 # TR 요청 (연속조회)
 def price_to_db(company_code, tick):
     
@@ -32,7 +32,7 @@ def price_to_db(company_code, tick):
                               수정주가구분=1,
                               output="주식분봉차트조회",
                               next=0)
-    print(df)
+    # print(df)
 
     end_flag = postgre_insert_db(company=company_code, df=df, tick=tick)
     if end_flag:
@@ -83,11 +83,11 @@ def postgre_insert_db(company, df, tick):
     check_bool = True
     if company != company_pre:
         # company code로 조회해서 체결시간이 같은 항목이 나오면 end_flag = True
-        sql_ = """SELECT 체결시간 FROM datas3 WHERE company='%s' ORDER BY 체결시간 desc;"""%(company) if tick=="3" else """SELECT 체결시간 FROM datas WHERE company='%s' ORDER BY 체결시간 desc;"""%(company)
+        sql_ = """SELECT 체결시간 FROM datas WHERE company='%s' ORDER BY 체결시간 desc;"""%(company) if tick=="3" else """SELECT 체결시간 FROM datas WHERE company='%s' ORDER BY 체결시간 desc;"""%(company)
         cur.execute(sql_)
         res_ = cur.fetchall()
 
-    sql ="""INSERT INTO datas3("company","현재가","거래량", "체결시간", "시가", "고가", "저가", "tick") VALUES """ if tick=="3" else """INSERT INTO datas("company","현재가","거래량", "체결시간", "시가", "고가", "저가", "tick") VALUES """
+    sql ="""INSERT INTO datas("company","현재가","거래량", "체결시간", "시가", "고가", "저가", "tick") VALUES """ if tick=="3" else """INSERT INTO datas("company","현재가","거래량", "체결시간", "시가", "고가", "저가", "tick") VALUES """
     for i in zip(df['현재가'], df['거래량'], df['체결시간'], df['시가'], df['고가'], df['저가']):
         try:
             price, amount, execution_time, start_price, high, low = i
@@ -121,7 +121,7 @@ def postgre_insert_db(company, df, tick):
         except Exception as e:
             print(e)
             print(i)
-    if sql =="""INSERT INTO datas3("company","현재가","거래량", "체결시간", "시가", "고가", "저가", "tick") VALUES """ or sql =="""INSERT INTO datas("company","현재가","거래량", "체결시간", "시가", "고가", "저가", "tick") VALUES """:
+    if sql =="""INSERT INTO datas("company","현재가","거래량", "체결시간", "시가", "고가", "저가", "tick") VALUES """ or sql =="""INSERT INTO datas("company","현재가","거래량", "체결시간", "시가", "고가", "저가", "tick") VALUES """:
         return end_flag
     sql = sql[:-1]
     sql += """;"""
@@ -140,6 +140,7 @@ codes = list(map(split_contents,codes_all))
 def main():
     while True:
         flag = False
+        # flag = True
         for i,  code in tqdm(enumerate(codes)):               
             with open("last_code.txt", "r") as f:
                 check_code = f.read()
