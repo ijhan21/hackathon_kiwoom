@@ -138,9 +138,9 @@ def postgre_insert_db(company, df, tick):
 codes_all = read_company_codes()
 codes = list(map(split_contents,codes_all))
 def main():
-    while True:
-        flag = False
-        # flag = True
+    # while True:
+    #     flag = False
+    #     # flag = True
         for i,  code in tqdm(enumerate(codes)):               
             with open("last_code.txt", "r") as f:
                 check_code = f.read()
@@ -156,8 +156,8 @@ def main():
                 # price_to_db(code,1)
                 price_to_db(code,"3")
                 price_to_db(code,"1")
-            c_time = time.strftime('%X', time.localtime(time.time()))
-            if c_time > '03:00:00' and c_time < '06:30:00':
-                return
+            # c_time = time.strftime('%X', time.localtime(time.time()))
+            # if c_time > '03:00:00' and c_time < '06:30:00':
+            return
 if __name__=="__main__":
     main()
