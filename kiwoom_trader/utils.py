@@ -142,6 +142,7 @@ def main():
     #     flag = False
     #     # flag = True
         for i,  code in tqdm(enumerate(codes)):               
+            """
             with open("last_code.txt", "r") as f:
                 check_code = f.read()
             if code ==check_code: 
@@ -158,6 +159,11 @@ def main():
                 price_to_db(code,"1")
             # c_time = time.strftime('%X', time.localtime(time.time()))
             # if c_time > '03:00:00' and c_time < '06:30:00':
+            """
+            print(code)
+            # price_to_db(code,1)
+            price_to_db(code,"3")
+            price_to_db(code,"1")
             return
 if __name__=="__main__":
     main()
