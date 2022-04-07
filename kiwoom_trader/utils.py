@@ -14,12 +14,11 @@ res_=list()
 
 def split_contents(df):
     return df[0]
-# HOST = "15.164.224.163"
-# HOST = "172.31.37.165"
-HOST = "124.197.144.166"
-# HOST = "192.168.29.212"
-PASSWORD = "1234"
-PORT = "7601"
+
+HOST = ""
+
+PASSWORD = ""
+PORT = ""
 # TR 요청 (연속조회)
 def price_to_db(company_code, tick):
     

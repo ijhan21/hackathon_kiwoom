@@ -2,11 +2,11 @@
 import logging
 
 logging.basicConfig(filename="log.txt", level=logging.INFO)
-PASSWD = "1234"
-HOST = "192.168.29.210"
-HOST = "124.197.131.17"
-PORT = "5432"
-PORT = "12988"
+PASSWD = ""
+HOST = ""
+
+PORT = ""
+
 def slice_output(data):
     return data[0]
 
